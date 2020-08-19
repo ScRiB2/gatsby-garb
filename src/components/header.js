@@ -55,7 +55,7 @@ class Header extends React.Component {
           <div data-netlify-identity-menu/>
 
           <div className="snipcart-summary snipcart-checkout" style={{ color: "white", cursor: "pointer" }}>
-            <din><strong>My Cart</strong></din>
+            <div><strong>My Cart</strong></div>
             <div><span style={{ fontWeight: "bold" }} className="snipcart-total-items"/> Items in Cart</div>
             <div>Total price <span style={{ fontWeight: "bold" }} className="snipcart-total-price"/></div>
           </div>
